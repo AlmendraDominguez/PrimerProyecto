@@ -1,0 +1,108 @@
+.myNav img {
+    width: 90px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.mi-intro {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(./bootstrap/hawaii.jpg);
+    height: 700px;
+    background-position: 60% 45%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.botonIntro {
+    text-decoration: none;
+    color: white;
+}
+
+.miPrimerCard {
+        text-align: end;
+        width: 38%;
+        margin-right: 145px;
+        margin-top: 300px;
+}
+
+.miParrafo1 {
+    font-size: 14px;
+}
+.miParrafo2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bill-foto {
+    height: 431px;
+}
+
+.dotted {
+    text-decoration:underline;
+text-decoration-style: dotted;
+}
+
+.footer {
+    background-color: rgba(30,79,109,255);
+    height: 60px;
+}
+
+.miBoton {
+    background-color: rgba(150,201,62,255);
+}
+
+.miBoton:hover {
+    background-color: rgba(150,201,150,255);
+}
+
+.miFooter {
+    text-decoration: none;
+}
+.miFooter:hover {
+    font-size: 1.1em;
+}
+
+@media all and (max-width: 763px) {
+    .oradores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mi-row {
+  width: 95%;
+}
+
+.miPrimerCard {
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+}
+.miFooter:hover {
+    font-size: 1.1em;
+}
+
+.honolulu {
+    flex-direction: column;
+    width: 100%;
+    display: block !important;
+
+}
+}
+
+
+@media (max-width: 1200px) {
+   
+    .miPrimerCard {
+        text-align: center;
+        width: 100%;
+    }
+    .honolulu {
+        display: block !important;
+    }
+}
