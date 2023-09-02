@@ -5,7 +5,7 @@
 }
 
 .mi-intro {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(./bootstrap/hawaii.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(../bootstrap/hawaii.jpg);
     height: 700px;
     background-position: 60% 45%;
     background-size: cover;
